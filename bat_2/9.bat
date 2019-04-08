@@ -10,7 +10,7 @@ echo 3 klawiatura ekranowa
 echo 4 lupa
 echo 5 cmd
 
-set /p dzial=
+set /p dzial=.
 
 if[%dzial%] == 0 exit
 if[%dzial%] == 1 start chrome
